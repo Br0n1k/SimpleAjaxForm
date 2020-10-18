@@ -21,7 +21,7 @@ $message =
 	<p>$text</p>";
 
 $headers  = "Content-type: text/html; charset=\"utf-8\" \r\n"; 
-$headers  .= "From: Heizung \r\n";
+$headers  .= "From: MySite \r\n";
 
 if(mail($to, $subject, $message, $headers)){
 	echo 'all ok';
